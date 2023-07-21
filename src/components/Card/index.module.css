@@ -1,0 +1,25 @@
+.container  {
+  border-radius: 12px;
+  border: 1px solid var(--gray);
+  max-width: 700px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.action-button {
+  padding: 8px 12px;
+  background-color: var(--gray);
+  color: black;
+  border: none;
+}
+
+.action-button:hover {
+  background-color: var(--light-gray);
+  border: none;
+}
+
+.text-container {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
